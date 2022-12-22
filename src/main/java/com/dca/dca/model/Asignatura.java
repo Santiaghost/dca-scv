@@ -1,5 +1,10 @@
 package com.dca.dca.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Asignatura {
     private int id;
     private String nombre;
