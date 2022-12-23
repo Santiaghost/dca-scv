@@ -13,5 +13,9 @@ public class AsignaturaController {
         Asignatura asignatura = new Asignatura(1,"Desarrollo Colaborativo de Aplicaciones", 6);
         return "Id:" + asignatura.getId() + " Nombre: " + asignatura.getNombre() + " Créditos: " + asignatura.getCreditos();
     }
-
+    @GetMapping("/fallo")
+    public String falloModeloDeAsignaturaDePrueba(){
+        Asignatura asignatura = new Asignatura(1,"Desarrollo Colaborativo de Aplicaciones", 6);
+        return "Id:" + asignatura.getId() + " Nombre: " + asignatura.getNombre() + " Créditos: " + asignatura.getCreditos;
+    }
 }
