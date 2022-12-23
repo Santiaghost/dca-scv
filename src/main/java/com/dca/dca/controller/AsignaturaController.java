@@ -13,5 +13,9 @@ public class AsignaturaController {
         Asignatura asignatura = new Asignatura(1,"Desarrollo Colaborativo de Aplicaciones", 6);
         return "Id:" + asignatura.getId() + " Nombre: " + asignatura.getNombre() + " Créditos: " + asignatura.getCreditos();
     }
-
+    @GetMapping("/pruebaURL")
+    public String pruebaHook(){
+        Asignatura asignatura = new Asignatura(2,"MADS", 6);
+        return "Id:" + asignatura.getId() + " Nombre: " + asignatura.getNombre() + " Créditos: " + asignatura.getCreditos();
+    }
 }
