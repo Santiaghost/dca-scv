@@ -13,9 +13,12 @@ Su objetivo es hacer un estudio de la herramienta git en los proyectos.
 Se ha alojado este proyecto en este repositorio de github ------> https://github.com/Santiaghost/dca-scv
 
 El proyecto contiene 3 ramas:
+
 -La rama "master" : Rama principal que solo se mergeará una vez el proyecto esté acabado.
+
 -La rama "feature/provocarError" : Rama desde la que empezamos a trabajar pero que abandonamos por contener una versión
 de la aplicación con errores.
+
 -La rama "ramaRecuperada" : Rama que creamos a partir del commit "good" que determinamos usando el bisect que contiene todo
 lo implementado para esta práctica
 
