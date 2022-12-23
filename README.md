@@ -1,6 +1,7 @@
 ##############################################
 # Aplicación dca-dev			     #
 ##############################################
+Santiago Sáez Caselles
 
 Sobre el proyecto ---------------------------------------
 Esta es una aplicación spring-boot creada por mi para la práctica 9 de la asignatura de "Diseño colaborativo de Aplicaciones".
