@@ -14,7 +14,11 @@ class DcaApplicationTests {
 
 	@Test
 	void apiDevuelveBien() {
-		Assert.assertEquals(controlador.pruebaHook(),"Id:2 Nombre:MADS Creditos: 6 ");
+		Assert.assertEquals(controlador.pruebaHook(),"Id:2 Nombre: MADS Créditos: 6");
+	}
+	@Test
+	void apiDevuelveBien2() {
+		Assert.assertEquals(controlador.muestraModeloDeAsignaturaDePrueba(),"Id:1 Nombre: Desarrollo Colaborativo de Aplicaciones Créditos: 6");
 	}
 
 }
